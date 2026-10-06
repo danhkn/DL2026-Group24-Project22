@@ -38,7 +38,6 @@ DL2026-Group24-Project22/
 │   ├── ood_comparison.ipynb
 │   └── OOD_Demo.ipynb
 ├── data/
-├── src/
 ├── requirements.txt
 ├── .gitignore
 ├── DATA.md
