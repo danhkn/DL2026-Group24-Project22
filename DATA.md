@@ -12,6 +12,8 @@ This document provides detailed information regarding data sources, versions, da
 | **CIFAR-100** | Near-OOD | Python version (Alex Krizhevsky) | [CIFAR-100 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html) | **Test:** 10,000 images (OOD Eval) | 32×32 (RGB, 3 channels) |
 | **MNIST** | Far-OOD | Yann LeCun et al. | [MNIST Dataset](https://yann.lecun.com/exdb/mnist/) | **Test:** 10,000 images (OOD Eval) | 28×28 (Grayscale) → Resized to 32×32 (RGB) |
 
+> **Note:** All datasets are automatically downloaded using `torchvision.datasets`.
+
 ---
 
 ## 2. Preprocessing Procedure
