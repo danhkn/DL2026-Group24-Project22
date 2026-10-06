@@ -38,3 +38,18 @@ pip install -r requirements.txt
 
 # Run the lightweight demo (~10s)
 jupyter notebook notebooks/OOD_Demo.ipynb
+```
+
+## 6. Directory Structure
+```text
+DL2026-Group24-Project22/
+├── notebooks/
+│   ├── OOD_Detection_MSP_KNN_ViM.ipynb
+│   ├── OOD_Comparison_Analysis.ipynb
+│   └── OOD_Demo.ipynb
+├── data/
+├── requirements.txt
+├── .gitignore
+├── DATA.md
+└── README.md
+```
