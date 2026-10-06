@@ -30,7 +30,15 @@ Cả 3 phương pháp dùng chung biểu diễn đặc trưng 128 chiều (*128-
 2. **`notebooks/ood_comparison.ipynb`**: Phân tích chi tiết số liệu, so sánh tương quan score, vẽ biểu đồ phân phối và đường ROC của 3 phương pháp.
 3. **`notebooks/OOD_Demo.ipynb`**: Demo chấm điểm nhanh trên 3 ảnh bất kỳ (chạy ~10s không cần tải lại toàn bộ dataset).
 
-### 5. Cấu trúc thư mục
+### 5. Hướng dẫn cài đặt & Thực thi
+```bash
+# Cài đặt thư viện phụ thuộc
+pip install -r requirements.txt
+
+# Khởi chạy demo nhanh (~10s)
+jupyter notebook notebooks/OOD_Demo.ipynb
+```
+### 6. Cấu trúc thư mục
 ```text
 DL2026-Group24-Project22/
 ├── notebooks/
