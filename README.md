@@ -26,8 +26,8 @@ All three methods leverage a shared **128-D latent feature space** to ensure fai
 | **ViM** ($d = 64$) | MNIST | Far-OOD | 93.30 | **19.41** | **95.09** | 88.81 | 38.93 |
 
 ## 4. Notebooks
-1. `notebooks/OOD_MSP_KNN_ViM_demo.ipynb`: End-to-end experiment pipeline, feature extraction (128-D), ViM subspace fitting, and KNN feature bank construction.
-2. `notebooks/ood_comparison.ipynb`: Detailed quantitative evaluation, score correlation analysis, distribution plots, and ROC curve comparisons across all three methods.
+1. `notebooks/OOD_Detection_MSP_KNN_ViM.ipynb`: End-to-end experiment pipeline, feature extraction (128-D), ViM subspace fitting, and KNN feature bank construction.
+2. `notebooks/OOD_Comparison_Analysis.ipynb`: Detailed quantitative evaluation, score correlation analysis, distribution plots, and ROC curve comparisons across all three methods.
 3. `notebooks/OOD_Demo.ipynb`: Rapid inference demo on 3 arbitrary samples (~10s execution, no full dataset download required).
 
 ## 5. Quickstart & Execution
