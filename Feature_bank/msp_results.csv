@@ -1,0 +1,3 @@
+﻿Model,ID dataset,n ID,ID accuracy (%),Tập dữ liệu test,n OOD,AUROC ↑ (%),AUPR-IN ↑ (%),AUPR-OUT ↑ (%),FPR95TPR ↓ (%),AUTC ↓ (%)
+wrn-40-2/cifar10/crossentropy,CIFAR-10 test,10000,94.84,CIFAR-100 (near-OOD),10000,87.8255,88.42,85.204,43.08,40.6895
+wrn-40-2/cifar10/crossentropy,CIFAR-10 test,10000,94.84,MNIST (far-OOD),10000,92.6588,94.3257,90.2938,22.47,37.2366
