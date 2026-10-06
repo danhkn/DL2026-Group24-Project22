@@ -53,3 +53,9 @@ To enable instant demo execution (~10 seconds) without downloading the full 335 
 ### Step 1: Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### Step 2: Reproduce Experiments
+- **Full Pipeline & Feature Extraction:** Run `notebooks/OOD_Detection_MSP_KNN_ViM.ipynb`.
+- **Benchmark Evaluation & Visualizations:** Run `notebooks/OOD_Comparison_Analysis.ipynb`.
+- **Lightweight Inference Demo (~10s):** Run `notebooks/OOD_Demo.ipynb`.
