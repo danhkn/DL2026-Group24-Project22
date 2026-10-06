@@ -1,4 +1,5 @@
-data/
+data/*
+!data/ood_artifacts.npz
 *.pt
 *.zip
 .ipynb_checkpoints/
